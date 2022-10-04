@@ -1,0 +1,23 @@
+{
+    "name": "companyservice/dev",
+    "authors": [
+        {
+            "name": "redbulldev",
+            "email": "nv.hung.red@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Companyservice\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Companyservice\\Providers\\ServiceTopServiceProvider"
+            ]
+        }
+    }
+}
