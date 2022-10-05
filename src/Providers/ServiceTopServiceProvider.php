@@ -40,7 +40,7 @@ class ServiceTopServiceProvider extends ServiceProvider
     protected function publishResources()
     {
         $this->publishes([
-            __DIR__ . '/../database/migrations' => database_path('/'),
+            __DIR__ . '/../../database/migrations' => database_path('migrations'),
         ], 'database/migrations');
     }
 }
